@@ -7,7 +7,8 @@ Final project for the UPC postgraduate in Deep learning and Aritificial Intellig
 |---|---|
 | **Team members** | Valentina Martínez · Selena Rodríguez · Marc Humet |
 | **Advisor** | Pol Caselles |
-| **Dataset** | [ISOT Fake News Dataset](https://www.uvic.ca/ecs/ece/isot/datasets/fake-news/index.php) (~44K news articles) |
+| **Dataset ISOT** | [ISOT Fake News Dataset](https://www.uvic.ca/ecs/ece/isot/datasets/fake-news/index.php) (~44K news articles) |
+| **Dataset LIAR** | [LIAR Dataset](https://www.kaggle.com/datasets/doanquanvietnamca/liar-dataset) (~42K news articles) |
 | **Task** | Binary classification: Fake (0) vs True (1) |
 
 
