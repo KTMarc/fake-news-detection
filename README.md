@@ -124,7 +124,7 @@ Rather than retraining the model with different word lists (which introduces var
 2. Evaluate the frozen model on the test set with the top-N true leaky words replaced by \<pad\>, for N in 0-15
 
 The leaky words are sourced from words with the highest true/fake ratio (e.g., myanmar appears in 3,084 true articles but only 4 fake ones).  
-[Leaky words](Images/leaky_words.png)
+![Leaky words](Images/leaky_words.png)
 
 ### Results
 
@@ -135,7 +135,7 @@ The analysis revealed that:
 
 (Add histogram of fake and real words vs freq before and after the changes)
 
-[GRU leaky words](Images/gru_leakywords.png)
+![GRU leaky words](Images/gru_leakywords.png)
 
 ### Conclusion
 
