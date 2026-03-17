@@ -1,3 +1,15 @@
+# Fake News Detection with Recurrent Neural Networks
+Final project for the UPC postgraduate in Deep learning and Aritificial Intelligence
+
+**Postgraduate course: Artificial Intelligence with Deep Learning (UPC School, 2026)**
+
+| | |
+|---|---|
+| **Team members** | Valentina Martínez · Selena Rodríguez · Marc Humet |
+| **Advisor** | Pol Caselles |
+| **Dataset** | [ISOT Fake News Dataset](https://www.uvic.ca/ecs/ece/isot/datasets/fake-news/index.php) (~44K news articles) |
+| **Task** | Binary classification: Fake (0) vs True (1) |
+
 1. ## **Introduction**
 
 The primary goal of this project is to develop and evaluate a supervised machine learning model capable of autonomously classifying news articles as either True or Fake. By leveraging Natural Language Processing (NLP) techniques, we aim to identify linguistic patterns and statistical regularities that distinguish factual reporting from misinformation.
