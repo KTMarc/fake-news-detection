@@ -12,17 +12,29 @@
 
 ## Table of Contents
 
-- [How to Run](#how-to-run)
-- [Final Report](#final-report)
+- [Fake News Detection with Recurrent Neural Networks](#fake-news-detection-with-recurrent-neural-networks)
+  - [Table of Contents](#table-of-contents)
+  - [How to Run](#how-to-run)
+    - [Prerequisites](#prerequisites)
+    - [1. Preprocessing](#1-preprocessing)
+    - [2. Training](#2-training)
+  - [Final Report](#final-report)
   - [1. Introduction](#1-introduction)
+    - [1.2 Motivation](#12-motivation)
+    - [1.3 Proposal](#13-proposal)
   - [2. Dataset: ISOT Fake News Dataset](#2-dataset-isot-fake-news-dataset)
+    - [2.1 Dataset Interpretation](#21-dataset-interpretation)
+    - [2.2 Dataset transformations (Preprocessing)](#22-dataset-transformations-preprocessing)
   - [3. Deep Neural Networks Models](#3-deep-neural-networks-models)
+    - [3.1. Evaluation Metrics](#31-evaluation-metrics)
+    - [3.2. Recurrent Architectures](#32-recurrent-architectures)
+    - [3.3 Training](#33-training)
   - [4. Experiments](#4-experiments)
     - [4.1 Cleaning the ISOT Dataset](#41-cleaning-the-isot-dataset)
     - [4.2 Excluding Exclusive Words from Fake and Real News](#42-excluding-exclusive-words-from-fake-and-real-news)
     - [4.3 Vocabulary Dimensionality Analysis (75k vs. 2k Tokens)](#43-vocabulary-dimensionality-analysis-75k-vs-2k-tokens)
     - [4.4 GRU training with different datasets](#44-gru-training-with-different-datasets)
-    - [4.5 Comparing the different Models with ISOT & LIAR dataset](#45-comparing-the-different-models-with-isot--liar-dataset)
+    - [4.5 Comparing the different Models with ISOT \& LIAR dataset](#45-comparing-the-different-models-with-isot--liar-dataset)
   - [5. Next Steps](#5-next-steps)
   - [6. Bibliography](#6-bibliography)
 
@@ -260,8 +272,8 @@ Performance Metrics Comparison
 
 | Vocabulary Size | Accuracy | Precision | Recall | F1-Score |
 | :---- | :---- | :---- | :---- | :---- |
-| 2,000 tokens | 98.8% | 98.4% | 99.8% | 99.1% |
-| 75,000 tokens | **79.6%** | 99.2% | 68.0% | 80.7% |
+| 2,000 tokens | 0.98 | 0.98 | 0.99 | 0.99 |
+| 75,000 tokens | **0.79** | 0.99 | 0.68 | 0.80 |
 
 *Figure: Confusion matrix comparison between a the vocabulary size of 2000 (left) and 75000 (right)*
 
