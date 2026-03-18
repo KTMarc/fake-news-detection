@@ -1,7 +1,5 @@
 # Fake News Detection with Recurrent Neural Networks
-Final project for the UPC postgraduate in Deep learning and Aritificial Intelligence
-
-**Postgraduate course: Artificial Intelligence with Deep Learning (UPC School, 2026)**
+**Final project for the Postgraduate course: Artificial Intelligence with Deep Learning (UPC School, 2026)**
 
 | | |
 |---|---|
