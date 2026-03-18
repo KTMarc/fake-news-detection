@@ -12,6 +12,22 @@ Final project for the UPC postgraduate in Deep learning and Aritificial Intellig
 | **Task** | Binary classification: Fake (0) vs True (1) |
 
 
+## Table of Contents
+
+- [How to Run](#how-to-run)
+- [Final Report](#final-report)
+  - [1. Introduction](#1-introduction)
+  - [2. Dataset: ISOT Fake News Dataset](#2-dataset-isot-fake-news-dataset)
+  - [3. Deep Neural Networks Models](#3-deep-neural-networks-models)
+  - [4. Experiments](#4-experiments)
+    - [4.1 Cleaning the ISOT Dataset](#41-cleaning-the-isot-dataset)
+    - [4.2 Excluding Exclusive Words from Fake and Real News](#42-excluding-exclusive-words-from-fake-and-real-news)
+    - [4.3 Vocabulary Dimensionality Analysis (75k vs. 2k Tokens)](#43-vocabulary-dimensionality-analysis-75k-vs-2k-tokens)
+    - [4.4 GRU training with different datasets](#44-gru-training-with-different-datasets)
+    - [4.5 Comparing the different Models with ISOT & LIAR dataset](#45-comparing-the-different-models-with-isot--liar-dataset)
+  - [5. Next Steps](#5-next-steps)
+  - [6. Bibliography](#6-bibliography)
+
 ## How to Run
 
 ### Prerequisites
