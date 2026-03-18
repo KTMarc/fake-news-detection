@@ -267,11 +267,16 @@ Performance Metrics Comparison
 
 *Figure: Confusion matrix comparison between a the vocabulary size of 2000 (left) and 75000 (right)*
 
-![Confusion matrix 2000 tokens](Images/Confusion%20matrix%202000%20tokens.png) ![Confusion matrix 75000 tokens](Images/Confusion%20matrix%2075000%20tokens.png)
+<table>
+<tr>
+<td><img src="Images/Confusion%20matrix%202000%20tokens.png" alt="Confusion matrix 2000 tokens" width="400"></td>
+<td><img src="Images/Confusion%20matrix%2075000%20tokens.png" alt="Confusion matrix 75000 tokens" width="400"></td>
+</tr>
+</table>
 
 **Conclusion**
 
-While 2,000 tokens are sufficient, we maintained the 75,000-token vocabulary for this project as the current infrastructure (Google Colab) handled the load with high efficiency. However, for future work involving significantly larger datasets or real-time production environments, reducing the vocabulary size would be the preferred strategy to minimize memory footprint, reduce training costs, and ensure faster inference times without sacrificing accuracy.
+This experiment confirms that for the ISOT dataset, less is more. The vast majority of the 75,000 tokens in the larger vocabulary acted as noise, leading to overfitting and poor generalization. Reducing the vocabulary to the top 2,000 words not only makes the model lighter and faster but also drastically improves its accuracy by focusing on the core semantic differences between real and fake news.
 
 ### 4.4 GRU training with different datasets
 
